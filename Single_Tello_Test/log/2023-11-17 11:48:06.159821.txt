@@ -1,0 +1,63 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-17 11:48:06.160281
+end_time: 2023-11-17 11:48:06.178952
+duration: 0.018671
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-17 11:48:06.178984
+end_time: 2023-11-17 11:48:09.896715
+duration: 3.717731
+
+id: 2
+command: go 0 0 40 50
+response: b'ok'
+start time: 2023-11-17 11:48:10.901857
+end_time: 2023-11-17 11:48:13.313941
+duration: 2.412084
+
+id: 3
+command: go 170 0 0 50
+response: b'ok'
+start time: 2023-11-17 11:48:14.319111
+end_time: 2023-11-17 11:48:18.874643
+duration: 4.555532
+
+id: 4
+command: go 0 0 -90 50
+response: b'ok'
+start time: 2023-11-17 11:48:19.879725
+end_time: 2023-11-17 11:48:22.904467
+duration: 3.024742
+
+id: 5
+command: go 80 0 0 50
+response: b'ok'
+start time: 2023-11-17 11:48:23.909569
+end_time: 2023-11-17 11:48:26.838425
+duration: 2.928856
+
+id: 6
+command: go 0 0 100 50
+response: b'ok'
+start time: 2023-11-17 11:48:27.843504
+end_time: 2023-11-17 11:48:30.862012
+duration: 3.018508
+
+id: 7
+command: go 170 0 0 50
+response: b'error Auto land'
+start time: 2023-11-17 11:48:31.862754
+end_time: 2023-11-17 11:48:35.194902
+duration: 3.332148
+
+id: 8
+command: land
+response: b'ok'
+start time: 2023-11-17 11:48:35.194937
+end_time: 2023-11-17 11:48:38.465364
+duration: 3.270427

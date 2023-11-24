@@ -1,0 +1,35 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-17 10:30:01.000910
+end_time: 2023-11-17 10:30:01.061535
+duration: 0.060625
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-17 10:30:01.061561
+end_time: 2023-11-17 10:30:09.768288
+duration: 8.706727
+
+id: 2
+command: mon
+response: b'ok'
+start time: 2023-11-17 10:30:09.768335
+end_time: 2023-11-17 10:30:09.827606
+duration: 0.059271
+
+id: 3
+command: jump 0 0 50 60 yaw m1 m2
+response: b'error No valid marker'
+start time: 2023-11-17 10:30:09.827638
+end_time: 2023-11-17 10:30:11.911004
+duration: 2.083366
+
+id: 4
+command: land
+response: b'ok'
+start time: 2023-11-17 10:30:11.911045
+end_time: 2023-11-17 10:30:14.768884
+duration: 2.857839

@@ -1,0 +1,77 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-10 13:25:08.313065
+end_time: 2023-11-10 13:25:08.489318
+duration: 0.176253
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-10 13:25:08.489343
+end_time: 2023-11-10 13:25:17.256070
+duration: 8.766727
+
+id: 2
+command: mon
+response: b'ok'
+start time: 2023-11-10 13:25:17.256119
+end_time: 2023-11-10 13:25:17.322479
+duration: 0.06636
+
+id: 3
+command: go 100 0 100 60 m1
+response: b'ok'
+start time: 2023-11-10 13:25:17.322505
+end_time: 2023-11-10 13:25:22.407208
+duration: 5.084703
+
+id: 4
+command: ccw 90
+response: b'ok'
+start time: 2023-11-10 13:25:22.407249
+end_time: 2023-11-10 13:25:24.548601
+duration: 2.141352
+
+id: 5
+command: go 170 0 100 60 m2
+response: b'error No valid marker'
+start time: 2023-11-10 13:25:24.548631
+end_time: 2023-11-10 13:25:26.692055
+duration: 2.143424
+
+id: 6
+command: ccw 90
+response: b'ok'
+start time: 2023-11-10 13:25:26.692085
+end_time: 2023-11-10 13:25:28.833425
+duration: 2.14134
+
+id: 7
+command: go 100 0 100 60 m3
+response: b'error No valid marker'
+start time: 2023-11-10 13:25:28.833450
+end_time: 2023-11-10 13:25:30.989195
+duration: 2.155745
+
+id: 8
+command: ccw 90
+response: b'ok'
+start time: 2023-11-10 13:25:30.989224
+end_time: 2023-11-10 13:25:33.125514
+duration: 2.13629
+
+id: 9
+command: go 180 0 100 60 m4
+response: b'error No valid marker'
+start time: 2023-11-10 13:25:33.125943
+end_time: 2023-11-10 13:25:35.310614
+duration: 2.184671
+
+id: 10
+command: land
+response: b'ok'
+start time: 2023-11-10 13:25:35.310639
+end_time: 2023-11-10 13:25:39.361780
+duration: 4.051141

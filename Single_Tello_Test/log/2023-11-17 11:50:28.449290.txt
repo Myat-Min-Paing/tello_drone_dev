@@ -1,0 +1,63 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-17 11:50:28.449790
+end_time: 2023-11-17 11:50:28.506280
+duration: 0.05649
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-17 11:50:28.506324
+end_time: 2023-11-17 11:50:32.131234
+duration: 3.62491
+
+id: 2
+command: go 0 0 40 50
+response: b'ok'
+start time: 2023-11-17 11:50:33.136378
+end_time: 2023-11-17 11:50:35.391147
+duration: 2.254769
+
+id: 3
+command: go 170 0 0 50
+response: b'ok'
+start time: 2023-11-17 11:50:36.396248
+end_time: 2023-11-17 11:50:41.357791
+duration: 4.961543
+
+id: 4
+command: go 0 0 -90 50
+response: b'ok'
+start time: 2023-11-17 11:50:42.362898
+end_time: 2023-11-17 11:50:45.291527
+duration: 2.928629
+
+id: 5
+command: go 80 0 0 50
+response: b'error Not joystick'
+start time: 2023-11-17 11:50:46.296630
+end_time: 2023-11-17 11:50:47.276420
+duration: 0.97979
+
+id: 6
+command: go 0 0 100 50
+response: b'error Motor stop'
+start time: 2023-11-17 11:50:48.281517
+end_time: 2023-11-17 11:50:48.446546
+duration: 0.165029
+
+id: 7
+command: go 170 0 0 50
+response: b'error Motor stop'
+start time: 2023-11-17 11:50:49.451652
+end_time: 2023-11-17 11:50:49.574889
+duration: 0.123237
+
+id: 8
+command: land
+response: b'error'
+start time: 2023-11-17 11:50:49.574930
+end_time: 2023-11-17 11:50:49.625843
+duration: 0.050913

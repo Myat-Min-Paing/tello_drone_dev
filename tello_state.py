@@ -1,9 +1,9 @@
+#ミャッミンパイン 0P01019
 import socket
 from time import sleep
 import curses
 
 INTERVAL = 0.2
-
 
 
 def report(str):
@@ -30,11 +30,13 @@ if __name__ == "__main__":
         index = 0
         while True:
             index += 1
-            response, ip = socket.recvfrom(1024)
+            response_bytes, ip = socket.recvfrom(1024)
+            response = response_bytes.decode('utf-8')
             if response == 'ok':
                 continue
             out = response.replace(';', ';\n')
             out = 'Tello State:\n' + out
+            print(out)
             report(out)
             sleep(INTERVAL)
     except KeyboardInterrupt:

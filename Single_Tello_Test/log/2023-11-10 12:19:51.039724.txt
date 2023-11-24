@@ -1,0 +1,77 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-10 12:19:51.040182
+end_time: 2023-11-10 12:19:51.292030
+duration: 0.251848
+
+id: 1
+command: takeoff
+response: b'error'
+start time: 2023-11-10 12:19:51.292063
+end_time: 2023-11-10 12:19:51.336588
+duration: 0.044525
+
+id: 2
+command: mon
+response: b'ok'
+start time: 2023-11-10 12:19:51.336606
+end_time: 2023-11-10 12:19:51.387876
+duration: 0.05127
+
+id: 3
+command: go 100 0 100 60 m1
+response: b'error Motor stop'
+start time: 2023-11-10 12:19:51.387903
+end_time: 2023-11-10 12:19:51.546728
+duration: 0.158825
+
+id: 4
+command: ccw 90
+response: b'error Motor stop'
+start time: 2023-11-10 12:19:51.546758
+end_time: 2023-11-10 12:19:51.693698
+duration: 0.14694
+
+id: 5
+command: go 170 0 100 60 m2
+response: b'error Motor stop'
+start time: 2023-11-10 12:19:51.693725
+end_time: 2023-11-10 12:19:51.853231
+duration: 0.159506
+
+id: 6
+command: ccw 90
+response: b'error Motor stop'
+start time: 2023-11-10 12:19:51.853259
+end_time: 2023-11-10 12:19:51.999594
+duration: 0.146335
+
+id: 7
+command: go 100 0 100 60 m3
+response: b'error Motor stop'
+start time: 2023-11-10 12:19:51.999617
+end_time: 2023-11-10 12:19:52.158788
+duration: 0.159171
+
+id: 8
+command: ccw 90
+response: b'error Motor stop'
+start time: 2023-11-10 12:19:52.158813
+end_time: 2023-11-10 12:19:52.305431
+duration: 0.146618
+
+id: 9
+command: go 180 0 100 60 m4
+response: b'error Motor stop'
+start time: 2023-11-10 12:19:52.305455
+end_time: 2023-11-10 12:19:52.458541
+duration: 0.153086
+
+id: 10
+command: land
+response: b'error'
+start time: 2023-11-10 12:19:52.458565
+end_time: 2023-11-10 12:19:52.509838
+duration: 0.051273

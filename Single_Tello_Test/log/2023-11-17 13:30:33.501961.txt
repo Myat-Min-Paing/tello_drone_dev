@@ -1,0 +1,21 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-17 13:30:33.502506
+end_time: 2023-11-17 13:30:33.649330
+duration: 0.146824
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-17 13:30:33.649361
+end_time: 2023-11-17 13:30:42.589638
+duration: 8.940277
+
+id: 2
+command: land
+response: b'ok'
+start time: 2023-11-17 13:30:47.594789
+end_time: 2023-11-17 13:30:50.284383
+duration: 2.689594

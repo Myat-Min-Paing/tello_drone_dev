@@ -1,0 +1,11 @@
+command
+takeoff
+mon
+go 100 0 100 60 m1
+ccw 90
+go 170 0 100 60 m2
+ccw 90
+go 100 0 100 60 m3
+ccw 90
+go 180 0 100 60 m4
+land

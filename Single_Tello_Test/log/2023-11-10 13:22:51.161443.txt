@@ -1,0 +1,77 @@
+
+id: 0
+command: command
+response: b'\xcc\x18\x01\xb9\x88V\x00S\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]\x00\x00z\x10\x00\x06\x00\x00\x00\x00\x00\xe1\t'
+start time: 2023-11-10 13:22:51.161859
+end_time: 2023-11-10 13:22:51.220237
+duration: 0.058378
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-10 13:22:51.220268
+end_time: 2023-11-10 13:22:51.220332
+duration: 6.4e-05
+
+id: 2
+command: mon
+response: b'ok'
+start time: 2023-11-10 13:22:51.220379
+end_time: 2023-11-10 13:22:51.265835
+duration: 0.045456
+
+id: 3
+command: go 100 0 100 60 m1
+response: b'error Not joystick'
+start time: 2023-11-10 13:22:51.265860
+end_time: 2023-11-10 13:22:51.928509
+duration: 0.662649
+
+id: 4
+command: ccw 90
+response: b'error Not joystick'
+start time: 2023-11-10 13:22:51.928550
+end_time: 2023-11-10 13:22:52.488580
+duration: 0.56003
+
+id: 5
+command: go 170 0 100 60 m2
+response: b'error Not joystick'
+start time: 2023-11-10 13:22:52.488603
+end_time: 2023-11-10 13:22:53.151503
+duration: 0.6629
+
+id: 6
+command: ccw 90
+response: b'error Not joystick'
+start time: 2023-11-10 13:22:53.151532
+end_time: 2023-11-10 13:22:53.714072
+duration: 0.56254
+
+id: 7
+command: go 100 0 100 60 m3
+response: b'error Not joystick'
+start time: 2023-11-10 13:22:53.714102
+end_time: 2023-11-10 13:22:54.339530
+duration: 0.625428
+
+id: 8
+command: ccw 90
+response: b'error Not joystick'
+start time: 2023-11-10 13:22:54.339575
+end_time: 2023-11-10 13:22:54.994459
+duration: 0.654884
+
+id: 9
+command: go 180 0 100 60 m4
+response: b'error Not joystick'
+start time: 2023-11-10 13:22:54.994491
+end_time: 2023-11-10 13:22:55.651217
+duration: 0.656726
+
+id: 10
+command: land
+response: None
+start time: 2023-11-10 13:22:55.651245
+end_time: None
+duration: None

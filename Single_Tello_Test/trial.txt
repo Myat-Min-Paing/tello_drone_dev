@@ -1,0 +1,15 @@
+command
+takeoff
+delay 1
+go 0 0 40 50
+delay 1
+go 170 0 0 50
+delay 1
+go 0 0 -90 50
+delay 1
+go 80 0 0 50
+delay 1
+go 0 0 100 50
+delay 1
+go 170 0 0 50
+land

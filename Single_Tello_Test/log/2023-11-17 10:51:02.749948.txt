@@ -1,0 +1,35 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-17 10:51:02.750449
+end_time: 2023-11-17 10:51:02.837463
+duration: 0.087014
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-17 10:51:02.837490
+end_time: 2023-11-17 10:51:07.312529
+duration: 4.475039
+
+id: 2
+command: mon
+response: b'ok'
+start time: 2023-11-17 10:51:07.312576
+end_time: 2023-11-17 10:51:07.349377
+duration: 0.036801
+
+id: 3
+command: go 0 0 30 60 m1
+response: b'ok'
+start time: 2023-11-17 10:51:07.349408
+end_time: 2023-11-17 10:51:09.332102
+duration: 1.982694
+
+id: 4
+command: land
+response: b'ok'
+start time: 2023-11-17 10:51:09.332128
+end_time: 2023-11-17 10:51:10.906740
+duration: 1.574612

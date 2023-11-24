@@ -1,0 +1,77 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-10 13:30:35.286791
+end_time: 2023-11-10 13:30:35.337145
+duration: 0.050354
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-10 13:30:35.337176
+end_time: 2023-11-10 13:30:39.819288
+duration: 4.482112
+
+id: 2
+command: mon
+response: b'ok'
+start time: 2023-11-10 13:30:39.819336
+end_time: 2023-11-10 13:30:39.879723
+duration: 0.060387
+
+id: 3
+command: go 100 0 100 60 m1
+response: b'ok'
+start time: 2023-11-10 13:30:39.879749
+end_time: 2023-11-10 13:30:42.473708
+duration: 2.593959
+
+id: 4
+command: ccw 90
+response: b'ok'
+start time: 2023-11-10 13:30:42.473748
+end_time: 2023-11-10 13:30:44.571911
+duration: 2.098163
+
+id: 5
+command: go 170 0 100 60 m2
+response: b'ok'
+start time: 2023-11-10 13:30:44.571944
+end_time: 2023-11-10 13:30:50.020342
+duration: 5.448398
+
+id: 6
+command: ccw 90
+response: b'ok'
+start time: 2023-11-10 13:30:50.020376
+end_time: 2023-11-10 13:30:52.118303
+duration: 2.097927
+
+id: 7
+command: go 100 0 100 60 m3
+response: b'ok'
+start time: 2023-11-10 13:30:52.118342
+end_time: 2023-11-10 13:30:56.197417
+duration: 4.079075
+
+id: 8
+command: ccw 90
+response: b'ok'
+start time: 2023-11-10 13:30:56.197447
+end_time: 2023-11-10 13:30:58.339733
+duration: 2.142286
+
+id: 9
+command: go 180 0 100 60 m4
+response: b'ok'
+start time: 2023-11-10 13:30:58.339760
+end_time: 2023-11-10 13:31:03.799939
+duration: 5.460179
+
+id: 10
+command: land
+response: b'ok'
+start time: 2023-11-10 13:31:03.799973
+end_time: 2023-11-10 13:31:07.931912
+duration: 4.131939

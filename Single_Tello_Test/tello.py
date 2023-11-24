@@ -4,7 +4,7 @@ import time
 from stats import Stats
 
 class Tello:
-    def __init__(self):
+    def __init__(self,ip):
         self.local_ip = ''
         self.local_port = 8889
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # socket for sending cmd
@@ -15,7 +15,7 @@ class Tello:
         self.receive_thread.daemon = True
         self.receive_thread.start()
 
-        self.tello_ip = '192.168.10.1'
+        self.tello_ip = ip
         self.tello_port = 8889
         self.tello_adderss = (self.tello_ip, self.tello_port)
         self.log = []
@@ -35,18 +35,18 @@ class Tello:
         self.log.append(Stats(command, len(self.log)))
 
         self.socket.sendto(command.encode('utf-8'), self.tello_adderss)
-        print 'sending command: %s to %s' % (command, self.tello_ip)
+        print ('sending command: %s to %s' % (command, self.tello_ip))
 
         start = time.time()
         while not self.log[-1].got_response():
             now = time.time()
             diff = now - start
             if diff > self.MAX_TIME_OUT:
-                print 'Max timeout exceeded... command %s' % command
+                print ('Max timeout exceeded... command %s' % command)
                 # TODO: is timeout considered failure or next command still get executed
                 # now, next one got executed
                 return
-        print 'Done!!! sent command: %s to %s' % (command, self.tello_ip)
+        print ('Done!!! sent command: %s to %s' % (command, self.tello_ip))
 
     def _receive_thread(self):
         """Listen to responses from the Tello.
@@ -60,8 +60,8 @@ class Tello:
                 print('from %s: %s' % (ip, self.response))
 
                 self.log[-1].add_response(self.response)
-            except socket.error, exc:
-                print "Caught exception socket.error : %s" % exc
+            except(socket.error, exc):
+                print ("Caught exception socket.error : %s" % exc)
 
     def on_close(self):
         pass

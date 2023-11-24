@@ -1,0 +1,63 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-17 11:49:13.203242
+end_time: 2023-11-17 11:49:13.246580
+duration: 0.043338
+
+id: 1
+command: takeoff
+response: b'error'
+start time: 2023-11-17 11:49:13.246606
+end_time: 2023-11-17 11:49:13.291215
+duration: 0.044609
+
+id: 2
+command: go 0 0 40 50
+response: b'error Motor stop'
+start time: 2023-11-17 11:49:14.296435
+end_time: 2023-11-17 11:49:14.464445
+duration: 0.16801
+
+id: 3
+command: go 170 0 0 50
+response: b'error Motor stop'
+start time: 2023-11-17 11:49:15.469535
+end_time: 2023-11-17 11:49:15.637032
+duration: 0.167497
+
+id: 4
+command: go 0 0 -90 50
+response: b'error Motor stop'
+start time: 2023-11-17 11:49:16.642139
+end_time: 2023-11-17 11:49:16.759160
+duration: 0.117021
+
+id: 5
+command: go 80 0 0 50
+response: b'error Motor stop'
+start time: 2023-11-17 11:49:17.764252
+end_time: 2023-11-17 11:49:17.932391
+duration: 0.168139
+
+id: 6
+command: go 0 0 100 50
+response: b'error Motor stop'
+start time: 2023-11-17 11:49:18.937502
+end_time: 2023-11-17 11:49:19.104809
+duration: 0.167307
+
+id: 7
+command: go 170 0 0 50
+response: b'error Motor stop'
+start time: 2023-11-17 11:49:20.110185
+end_time: 2023-11-17 11:49:20.284083
+duration: 0.173898
+
+id: 8
+command: land
+response: b'error'
+start time: 2023-11-17 11:49:20.284112
+end_time: 2023-11-17 11:49:20.329893
+duration: 0.045781

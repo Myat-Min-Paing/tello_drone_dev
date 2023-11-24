@@ -1,0 +1,21 @@
+
+id: 0
+command: command
+response: b"\xcch\x00Q\x88\x1a\x00'\x00Z\x00\xc3\x8d"
+start time: 2023-11-17 11:18:41.517727
+end_time: 2023-11-17 11:18:41.534578
+duration: 0.016851
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-17 11:18:41.534653
+end_time: 2023-11-17 11:18:41.534684
+duration: 3.1e-05
+
+id: 2
+command: land
+response: b'error'
+start time: 2023-11-17 11:18:41.534701
+end_time: 2023-11-17 11:18:41.578848
+duration: 0.044147

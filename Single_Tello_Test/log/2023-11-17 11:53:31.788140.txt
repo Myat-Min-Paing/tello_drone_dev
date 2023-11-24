@@ -1,0 +1,63 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2023-11-17 11:53:31.788715
+end_time: 2023-11-17 11:53:31.859365
+duration: 0.07065
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2023-11-17 11:53:31.859391
+end_time: 2023-11-17 11:53:40.472897
+duration: 8.613506
+
+id: 2
+command: go 0 0 40 50
+response: b'ok'
+start time: 2023-11-17 11:53:41.478055
+end_time: 2023-11-17 11:53:43.948330
+duration: 2.470275
+
+id: 3
+command: go 170 0 0 50
+response: b'ok'
+start time: 2023-11-17 11:53:44.953431
+end_time: 2023-11-17 11:53:49.856300
+duration: 4.902869
+
+id: 4
+command: go 0 0 -90 50
+response: b'ok'
+start time: 2023-11-17 11:53:50.861390
+end_time: 2023-11-17 11:53:54.855433
+duration: 3.994043
+
+id: 5
+command: go 80 0 0 50
+response: b'ok'
+start time: 2023-11-17 11:53:55.860543
+end_time: 2023-11-17 11:53:58.984883
+duration: 3.12434
+
+id: 6
+command: go 0 0 100 50
+response: b'ok'
+start time: 2023-11-17 11:53:59.989979
+end_time: 2023-11-17 11:54:03.421855
+duration: 3.431876
+
+id: 7
+command: go 170 0 0 50
+response: b'ok'
+start time: 2023-11-17 11:54:04.426950
+end_time: 2023-11-17 11:54:09.493499
+duration: 5.066549
+
+id: 8
+command: land
+response: b'ok'
+start time: 2023-11-17 11:54:09.493528
+end_time: 2023-11-17 11:54:13.027777
+duration: 3.534249
